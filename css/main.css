@@ -634,10 +634,13 @@ a:hover {
   font-family: "AvenirNextCyr-Demi";
   font-size: 20px;
   line-height: 25px;
-  margin-bottom: 40px;
+
   display: flex;
   align-items: center;
   position: relative;
+}
+.work__benefits-item:not(:last-child) {
+  margin-bottom: 40px;
 }
 .work__benefits-item::before {
   content: "";
@@ -994,21 +997,20 @@ a:hover {
     width: 100%;
   }
   .work {
-    padding-top: 150px;
+    padding: 70px 0;
   }
   .work__wrapper,
-  .contacts__item,
-  .contacts {
+  .contacts__item {
     margin-bottom: 30px;
   }
   .contacts__wrapper {
     flex-direction: column;
     align-items: flex-start;
   }
-  .contacts {
+  /* .contacts {
     padding-bottom: 30px;
-  }
-  .header__lang {
+  /* } */
+  */ .header__lang {
     position: absolute;
     top: 48px;
     left: 90%;
@@ -1060,6 +1062,12 @@ a:hover {
   }
   .portfolio__img {
     width: 100%;
+  }
+  .contacts {
+    padding: 50px 0;
+  }
+  .footer__logo {
+    margin-bottom: 40px;
   }
 }
 
@@ -1154,9 +1162,9 @@ a:hover {
   .idea {
     padding-top: 140px;
   }
-  .work {
+  /* .work {
     padding-top: 145px;
-  }
+  } */
   .idea__main,
   .work__main,
   .team__main {
@@ -1185,6 +1193,9 @@ a:hover {
   }
   .mobile__img::before {
     display: none;
+  }
+  .mobile__img {
+    margin-top: 0;
   }
 }
 /* Extra small: 0px (320px) - 435px */
@@ -1217,5 +1228,8 @@ a:hover {
   }
   .checkbox-subscribe:checked + label::before {
     margin-top: -14px;
+  }
+  .work {
+    padding-bottom: 30px;
   }
 }
