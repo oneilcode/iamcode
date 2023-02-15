@@ -1010,7 +1010,7 @@ a:hover {
   }
   .header__lang {
     position: absolute;
-    /* top: 25px; */
+    top: 48px;
     left: 90%;
   }
   .benefit__offer {
