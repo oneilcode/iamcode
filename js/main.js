@@ -32,8 +32,8 @@ $(document).ready(function () {
       $('#l-1').html('About me');
       $('#l-2').html('Hi there :)');
       $('#l-3').html('My name is Vika and I`m a junior Frontend developer and HTML coder');
-      $('#l-4').html('I am interested in front-end development, learning new layout technologies, as well as relationship with CMS');
-      $('#l-5').html('Interested in long-term growth and further development to the developer of the middle level of the front-end development');
+      $('#l-4').html('I am interested in front-end development and learning new layout technologies');
+      $('#l-5').html('Interested in long-term growth and further development as a developer in the middle level of front-end development');
       // $('#l-6').html('We are ready to implement the most unusual ideas with the most promising people!');
       // $('#l-7').html('Flexy Team - this is many years of experience, unlimited budgets and constant development. There are no analogues of such teams on the market!');
       // $('#l-8').html('For more than 10 years, our team has consistently been in the tops of the leaders in arbitrage traffic. During this time, we have gained vast experience and skillfully work with almost all traffic sources, we know all the subtleties and pitfalls.');
